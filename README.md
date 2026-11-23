@@ -1,10 +1,11 @@
-# ZhiyouFormal — Lean 4 Machine-Checked Formalization of the Xiong Wei Unified Trilogy
+﻿# ZhiyouFormal — Lean 4 Machine-Checked Formalization of the Xiong Wei Unified Trilogy
 
 [![Lean 4](https://img.shields.io/badge/Lean-4.14.0-blue)](https://lean-lang.org/)
 [![Mathlib](https://img.shields.io/badge/Mathlib-v4.14.0-green)](https://github.com/leanprover-community/mathlib4)
 [![sorry](https://img.shields.io/badge/sorry-0-brightgreen)]()
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24454857.svg)](https://doi.org/10.5281/zenodo.24454857)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24456674.svg)](https://doi.org/10.5281/zenodo.24456674)
+[![Zenodo (direct upload)](https://zenodo.org/badge/DOI/10.5281/zenodo.24454857.svg)](https://doi.org/10.5281/zenodo.24454857)
 
 **48 machine-checked theorems · 4 model-consistency constructions · 0 `sorry` · 4 transparently declared external axioms**
 
@@ -17,7 +18,8 @@ three-volume *Xiong Wei Unified Trilogy* (熊巍三部曲):
 | 2 | **Probability Cloud Evolution Theory** (概率云演化论) | [10.5281/zenodo.24454840](https://doi.org/10.5281/zenodo.24454840) | [10.5281/zenodo.24454846](https://doi.org/10.5281/zenodo.24454846) |
 | 3 | **Zhiyou Unified Theory** (秩由统一理论) | [10.5281/zenodo.24454849](https://doi.org/10.5281/zenodo.24454849) | [10.5281/zenodo.24454855](https://doi.org/10.5281/zenodo.24454855) |
 
-Software archive: **[10.5281/zenodo.24454857](https://doi.org/10.5281/zenodo.24454857)** (Zenodo, archived release).
+Software archive (this repository, auto-archived per release): **[10.5281/zenodo.24456674](https://doi.org/10.5281/zenodo.24456674)** — concept DOI, always resolves to the latest archived release.
+Snapshot of v1.0.0 uploaded directly to Zenodo: [10.5281/zenodo.24454857](https://doi.org/10.5281/zenodo.24454857).
 
 > **The point of this repository.** A 10,000-word ontological essay is not evidence. A `git clone`
 > plus a Lean kernel run that prints *no goals* is. Everything below is reproducible on a clean
@@ -29,7 +31,7 @@ Software archive: **[10.5281/zenodo.24454857](https://doi.org/10.5281/zenodo.244
 
 ```bash
 # prerequisites: elan (auto-installed by the VS Code Lean4 extension) + git
-git clone https://github.com/xiongwei-zhiyou/ZhiyouFormal.git
+git clone https://github.com/tenabuy-bot/ZhiyouFormal.git
 cd ZhiyouFormal
 
 # Lean toolchain is pinned by lean-toolchain → leanprover/lean4:v4.14.0

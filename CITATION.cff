@@ -1,8 +1,8 @@
-cff-version: 1.2.0
+﻿cff-version: 1.2.0
 message: "If you use this formalization, please cite both the software and the accompanying trilogy."
 type: software
 title: "ZhiyouFormal: Lean 4 Machine-Checked Formalization of the Xiong Wei Unified Trilogy (48 Theorems, 0 Sorry)"
-version: 1.0.0
+version: 1.0.2
 date-released: 2026-11-23
 license: MIT
 authors:
@@ -10,12 +10,15 @@ authors:
     given-names: Wei
     name-particle: ""
     affiliation: "Independent Researcher"
-repository-code: "https://github.com/xiongwei-zhiyou/ZhiyouFormal"
-url: "https://doi.org/10.5281/zenodo.24454857"
+repository-code: "https://github.com/tenabuy-bot/ZhiyouFormal"
+url: "https://doi.org/10.5281/zenodo.24456674"
 identifiers:
   - type: doi
+    value: "10.5281/zenodo.24456674"
+    description: "Zenodo concept DOI for this repository (auto-archived per GitHub release)"
+  - type: doi
     value: "10.5281/zenodo.24454857"
-    description: "Zenodo archive of version 1.0.0"
+    description: "Zenodo direct-upload snapshot of version 1.0.0"
 keywords:
   - Lean 4
   - Formal Verification

@@ -1,14 +1,13 @@
-﻿cff-version: 1.2.0
+cff-version: 1.2.0
 message: "If you use this formalization, please cite both the software and the accompanying trilogy."
 type: software
-title: "ZhiyouFormal: Lean 4 Machine-Checked Formalization of the Xiong Wei Unified Trilogy (48 Theorems, 0 Sorry)"
-version: 1.0.2
-date-released: 2026-11-23
+title: "ZhiyouFormal: Lean 4 Machine-Checked Formalization of the Xiong Wei Unified Trilogy (69 Theorems, 0 Sorry)"
+version: 7.0.1
+date-released: 2026-11-25
 license: MIT
 authors:
   - family-names: Xiong
     given-names: Wei
-    name-particle: ""
     affiliation: "Independent Researcher"
 repository-code: "https://github.com/tenabuy-bot/ZhiyouFormal"
 url: "https://doi.org/10.5281/zenodo.24456674"
@@ -18,7 +17,7 @@ identifiers:
     description: "Zenodo concept DOI for this repository (auto-archived per GitHub release)"
   - type: doi
     value: "10.5281/zenodo.24454857"
-    description: "Zenodo direct-upload snapshot of version 1.0.0"
+    description: "Zenodo direct-upload snapshot of the original v1.0.0 package"
 keywords:
   - Lean 4
   - Formal Verification
@@ -28,13 +27,11 @@ keywords:
   - Zhiyou Unified Theory
   - Theorem Proving
 abstract: >-
-  ZhiyouFormal v1.0 is the complete Lean 4 + Mathlib4 formal verification package
-  accompanying Xiong Wei's three-volume theoretical trilogy (Continuous Ontology,
-  Probability Cloud Evolution Theory, and Zhiyou Unified Theory). It contains 48
-  machine-checked theorems, 4 explicit model-consistency constructions, and 4
-  transparently declared external physical/analytic axioms, achieving zero unproved
-  placeholders (0 sorry). Verified modules cover potential-difference conservation and
-  decoherence gravity, discrete Fokker-Planck / projective collapse and Pearl do-calculus
-  confounder separation, general-to-special convergence (dR/dt = Q - D), target-overlap
-  inverted-U optimality, niche monotonicity, potential-difference three-price identity,
-  and cross-disciplinary downward compatibility lemmas.
+  ZhiyouFormal is the Lean 4 + Mathlib4 formal verification package accompanying Xiong Wei's
+  three-volume theoretical trilogy (Continuous Ontology, Probability Cloud Evolution Theory, and
+  Zhiyou Unified Theory). It contains two proof kernels: the original 5-module kernel (48
+  machine-checked theorems, 4 explicit model-consistency constructions and 4 transparently declared
+  external physical/analytic axioms), and the v7.0 kernel added on 2026-11-25
+  (ZhiyouFormal/V7/ZhiyouFormal_v7.0.lean, 9 modules, 21 theorems, 0 sorry), verified on Lean 4.14.0
+  + Mathlib v4.14.0 with no compiler diagnostics. Total: 69 machine-checked theorems, zero unproved
+  placeholders.

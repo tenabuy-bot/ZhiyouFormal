@@ -150,3 +150,25 @@ MIT-licensed on Zenodo as well.
 
 Lean 4 and Mathlib are the work of the Lean FRO and the Mathlib community. This repository only
 formalizes the trilogy's models and results; it stands entirely on their toolchain.
+
+## v7.0 Lean 4 kernel (added 2026-11-25)
+
+`ZhiyouFormal/V7/ZhiyouFormal_v7.0.lean` — the v7.0 kernel of *Zhiyou Unified Theory*:
+9 modules, 21 theorems, 0 `sorry`.
+
+Verified on Lean 4.14.0 + Mathlib v4.14.0:
+
+```bash
+lean ZhiyouFormal/V7/ZhiyouFormal_v7.0.lean
+# exit 0, no diagnostics
+```
+
+Two Real-valued definitions (`W_fourth`, `W_screen`) are marked `noncomputable`; that is the
+only change from the shipped source, which otherwise failed to compile with
+"consider marking it as 'noncomputable'".
+
+Trilogy v7.0 preprints on Zenodo (concept DOIs, always point to the latest version):
+
+- Continuous Ontology: [10.5281/zenodo.20162910](https://doi.org/10.5281/zenodo.20162910)
+- Probability Cloud Evolution Theory: [10.5281/zenodo.24454839](https://doi.org/10.5281/zenodo.24454839)
+- Zhiyou Unified Theory: [10.5281/zenodo.24454848](https://doi.org/10.5281/zenodo.24454848)
